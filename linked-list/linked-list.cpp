@@ -25,7 +25,7 @@ public:
 
 };
 
-template<class T> // here t refers to N
+template<class T> 
 class LinkedList{
 
 public:

@@ -5,6 +5,27 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "BFS",
+            "request": "launch",
+            "mainClass": "algorithms.BFS",
+            "projectName": "data-structures-and-algorithms_75062095"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTree",
+            "request": "launch",
+            "mainClass": "trees.BinaryTree",
+            "projectName": "data-structures-and-algorithms_75062095"
+        },
+        {
+            "type": "java",
+            "name": "StackDemo",
+            "request": "launch",
+            "mainClass": "stack.StackDemo",
+            "projectName": "data-structures-and-algorithms_75062095"
+        },
+        {
             "name": "(lldb) Launch",
             "type": "cppdbg",
             "request": "launch",
@@ -17,6 +38,5 @@
             "MIMode": "lldb",
             "preLaunchTask": "C/C++: clang++ build active file"
         }
-
     ]
 }
